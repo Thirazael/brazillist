@@ -1,0 +1,352 @@
+<html>
+<head>
+<title>CSS3 vertical menu</title>
+<style>
+#navigation {font-size:0.65em; width:200px; }
+#navigation ul {margin:0px; padding:0px; }
+#navigation li {list-style: none; }
+ul.top-level li {border-radius:0px;margin-top:1px;background: #3F474A;}
+#navigation a {transition: all .5s ease-out 0s;color: #fff; cursor: pointer; display:block; height:25px; line-height: 25px; text-indent: 10px; text-decoration:none; width:100%; border-radius:5px;}
+#navigation a:hover{text-decoration:none;}
+#navigation li:hover {background: #25567A; transition: all .5s ease-out 0s; position: relative;}
+ul.sub-level {display: none;}
+li:hover .sub-level {transition: all .5s ease-out 0s;    background: #999;    border: #fff solid;    border-width: 1px;    display: block;    position: absolute;    left: 75px;    top: 5px;	border-radius:5px;}
+ul.sub-level li {    border: none;    float:left;    width:150px;	border-radius:5px;}
+#navigation .sub-level {    background: #999;	transition: all .5s ease-out 0s;}
+#navigation .sub-level .sub-level {    background: #09C;	transition: all .5s ease-out 0s;}
+li:hover .sub-level .sub-level {    display:none;}
+.sub-level li:hover .sub-level {    display:block;	transition: all .5s ease-out 0s;}
+ul.top-level li span{float:right; color: #fff; margin-right:10px; margin-top:-20px;}
+</style>
+</head>
+<body>
+ <div id="navigation">
+  <ul class="top-level">
+   <li><a href="#">AGRICULTURAL</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!animals-care/ckd1">Animals Care</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!farms-ranchs/c1z10">Farms & Ranchs</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories-parts/c1r40">Machines & Equipments</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!products/cp4s">Products</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!trade-show/c1qd8">Trade Show</a></li>
+    </ul>
+  <li><a href="#">AUTOMOTIVE</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!antiques-collectibles/c15zm">Antiques & Collectiblies</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories-parts/c1r40">Accessories & Parts</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!dealers-new/c1tlv">Dealers New</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!dealers-used/czpg">Dealers Used</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!carwash/c74z">Carwash</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!dispatcher/c1da2">Dispatcher</a></li>
+	 <li><a target="_top" href="hhttp://www.brazillist.org/#!imported-cars/ceil">Imported Cars</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!rental/cjy9">Rental</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!service-repair/c1vnz">Service & Repair</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!towing/c1nw4">Towing</a></li>
+	</ul>
+  <li><a href="#">AVIATION</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!airline-companies/cqq1">Airline Companies</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!air-taxi-service/cdxm">Air Taxi Service</a></li>
+    </ul>
+	<li><a href="#">BUSINESS</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!business-services/c1en6">Business Service</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!consultants/c1cr3">Consultants</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!employment-agency/c17rr">Employment Agency</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!marketing-communication/chhq">Marketing & Communication</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!office-supplies-copies/c2476">Office Supplies & Copies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!printing-publishing/c1m8p">Printing & Publishing</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!stationers-shop/c1l77">Stationer's Shop</a></li>
+    </ul>
+	<li><a href="#">COMPUTERS</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories-parts/c14ja">Accessories</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!games/c10gm">Games</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!programming/cwzs">Programming</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!purchases-sales/c1sky">Purchases & Sales</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!softwares/c1h7b">Softwares</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!services-repairs/c13ek">Service Repairs</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!technicians/c1cg0">Technicians</a></li>
+    </ul>
+    <li><a href="#">CONSTRUCTION</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!architects-landscape/c1jy9">Architects</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!blasting-demolition/c6dp">Blasting & Demolition</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!building-materials-supplies/clkd">Building Materials & Supplies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!carpentry-carpeting/cmyl">Carpentry & Carpeting</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!contruction-companies/c1oom">Construction Companies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!electrician/c3zr">Electrician</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!engineers-surveyors/ca77">Engineers & Surveyors</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!elevator--escalator-work/c1dge">Elevator & Escalator</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!environmental-assessments/cmh4">Environmental Assessments</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!excavating/cx93">Excavating</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!flooring-foundation-work/cu0c">Flooring & Foundation Work</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!granite-tile-marble/cqso">Granite, Tile & Marble</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!heating/c3s8">Heating</a></li>
+	 <li><a target="_top" href="hhttp://www.brazillist.org/#!inspectors/c20ce">Inspectors</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!lights--lighting/cf0l">Lights & Lighting</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!paving/c1kor">Paving</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!plaster/cutv">Plaster</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!painting/c12gk">Painting</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!plumbing/cknw">Plumbing</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!refuse-removal/c1z2j">Refuse Removal</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!roofing/c1f6s">Roofing</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!structural-inspection/cpuj">Structural Inspection</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!ventilation/c1smc">Ventilation</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!wallpapering/c1l2o">Wallpapering</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!welding/c4or">Welding</a></li>
+	</ul>
+	<li><a href="#">EDUCATION</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!colleges/c55m">Colleges</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!educational-resources/ckmi">Educational Resources</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!elementary-school/c84h">Elementary School</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!high-school/c1y9v">High School</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!language-school/cffi">Language School</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!supplementary-courses/c2069">Supplementary Courses</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!technical-courses/c218c">Technical Courses</a></li>
+    </ul>
+	<li><a href="#">ELECTRONICS</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories-parts/cr74">Accessories & Parts</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!services--repairs/c7l0">Services & Repairs</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!purchases-sales/c1eo0">Purchases & Sales</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!toys--games/cl1d">Toys & Games</a></li>
+	</ul>
+	<li><a href="#">ENTERTAINMENT</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!announcer/cbjg">Announcer</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!annual-events/cxdw">Annual Events</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!artists/c108a">Artists</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!cinema/cd0t">Cinema</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!bars/c1bka">Bars</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!bookstore/c2k0">Bookstore</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!cable-tv/c9c1">Cable TV</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!event-planners--supplies/c1q32">Event Planners & Supplies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!newspapers-magazines/c209u">Newspapers & Magazines</a></li>
+	 <li><a target="_top" href="hhttp://www.brazillist.org/#!musicians/c1l5s">Musicians</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!nightclub/c88m">Nightclub</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!photographer/c10wi">Photographer</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!radio-stations/c1jl1">Productions</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!radio-stations/c1jl1">Radio Stations</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!tv-stations/cie8">TV Stations</a></li>
+	</ul>
+	<li><a href="#">ENVIRONMENTAL</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!polution-control-equipment/c1cyf">Polution Control Equipment</a></li>
+    </ul>
+	<li><a href="#">EXPORT TRADING COMPANIES</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!import--export/cxp9">Import & Export</a></li>
+    </ul>
+	<li><a href="#">FOOD & DINING</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="hhttp://www.brazillist.org/#!bakery/c1rl9">Bakery</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!beverages/cq9p">Beverages</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!desserts/cecz">Desserts</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!fast-food/c14nr">Fast Food</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!grocery-store/c1rs8">Grocery Store</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!supplies/c1q12">Kitchen Supplies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!pizzaria/c1ej5">Pizzaria</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!restaurants/curt">Restaurants</a></li>
+	</ul>
+    <li><a href="#">GAS STATIONS</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!supply-convenience/c638">Supply & Convenience</a></li>
+    </ul>
+	<li><a href="#">GEMSTONES</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!manufacturer/conp">Manufacturer</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!wholesaler/cc6x">Wholesaler</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!trade-show/c21w">Trade Show</a></li>
+	</ul>
+	<li><a href="#">GOVERNMENT</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!city-hall/cyng">City Hall</a></li>
+    </ul>
+    <li><a href="#">HEALTH & MEDICINE</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!clinics/c1ejh">Clinics</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!dental/c251b">Dental</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!hospital/c5xj">Hospital</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!laboratory/c3ys">Laboratory</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!home-health-care/c1zrp">Home Health Care</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!medical-center/c1bvc">Medical Center</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!medical-equipment/c16h1">Medical Equipment</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!mental-health/c1wl3">Mental Health</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!nutricionist/c9zn">Nutricionist</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!optical/cdik">Optical</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!pharmacy/c1ayj">Pharmacy</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!physicians--assistants/c185">Physical & Assistants</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!social-worker/c1uo5">Social Worker</a></li>
+	</ul>
+	<li><a href="#">HOME & GARDEN</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!antiques--collectibles/c2e7">Antiques & Collectibles</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!cleaning/c1a3w">Cleaning</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!crafts/cxpk">Crafts</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!hobbies--sports/c11ow">Hobbies & Sports</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!home-furnishings/ccda">Home Furnishings</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!home-goods/c1zm2">Home Goods</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!improvements--repairs/cu9g">Improvements & Repairs</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!landscape-lawn-service/c5h8">Landscape & Lawn Services</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!pest-control/c1saw">Pest Control</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!pool-service--supplies/c1wdr">Pool Service & Supplies</a></li>
+	 <li><a target="_top" href="hhttp://www.brazillist.org/#!security-system-service/c21qb">Security System Service</a></li>
+	</ul>
+   <li><a href="#">INDUSTRIAL EQUIPAMENT</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!exclusive-machinery/c1p9i">Exclusive Machinery</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!general-industrial-equip/c1vgu">General Industrial Equip</a></li>
+	 <li><a target="_top" href="hhttp://www.brazillist.org/#!industrial-chemicals/ctcb">Industrial Chemicals</a></li>
+	</ul>
+	<li><a href="#">LEGAL FINANCIAL</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!accountants/c1ogp">Accountants</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!attorneys/cw09">Attorneys</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!comercial-interpreter/c1nth">Comercial Interpreter</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!financial-institutions/cb1s">Financial Institutions</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!financial-services/c1nj5">Financial Services</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!insuranse/c1ae">Insuranse</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!notary-public/c14j5">Notary Public</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!translator/cp0u">Translator</a></li>
+	</ul>
+	<li><a href="#">MANUFACTURING*WHOLESALE</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!cellulose/cnzf">Cellulose</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!distribution/calb">Distribution</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!import--export/c1o4n">Import & Export</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!manufacturing/c15b0">Manufacturing</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!papers--boxes/c1hc8">Papers & Boxes</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!representative/c20c4">Representative</a></li>
+	</ul>
+	<li><a href="#">MARINE</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories--parts/c23sq">Accessories & Parts</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!purchase-sale/c1lev">Purchase & Sale</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!service--repair/cxtj">Service & Repair</a></li>
+	</ul>
+	<li><a href="#">MERCHANTS RETAIL</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories/chr5">Accessories</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!bags/cpyb">Bags</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!clothing/coj7">Clothing</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!department-stores/c1d3q">Department Stores</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!furniture/c108f">Forniture</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!gifts-crafts/c8e4">Gifts & Crafts</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!jewelry/cz46">Jewelry</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!shoes/c1cer">Shoes</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!sporting-goods/ctd">Sporting Goods</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!textiles--leather/c1q2">Textiles & Leather</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!toys--hobbies/c18tt">Toys & Hobbies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!wholesale/c8k9">Wholesale</a></li>
+	</ul>
+	<li><a href="#">MISCELLANEOUS</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!cemeteries/csnc">Cemeteries</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!civic-group/cqk3">Civic Group</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!funeral-service/cj0z">Funeral Service</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!utility-companies/c1t1o">Ultility Companies</a></li>
+	</ul>
+	<li><a href="#">MOTOCYCLES</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!accessories--parts/cj4j">Accessories & Parts</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!dealers-new/c1ijv">Dealers New</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!dealers-used/c1puq">Dealers Used</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!dispatcher/cjkr">Dispatcher</a></li>
+	 li><a target="_top" href="http://www.brazillist.org/#!service-repair/cnuv">Service Repair</a></li>
+	</ul>
+	<li><a href="#">NON GOVERMENTAL OFFICES</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!ngos/crep">NGO'S</a></li>
+    </ul>
+	<li><a href="#">PERSONAL CARE & SERVICES</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!baby-sitters/c1zqi">Baby Sitters</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!beauty-salons/cd8t">Beauty Salon</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!cosmetics--toiletries/c1bpk">Cosmetics & Toiletries</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!dry-cleaners/c7u0">Dry Cleaners</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!exercise--fitness/c1ze2">Exercice & Fitness</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!handyman/c14if">Handyman</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!house-cleaners/c1u2m">House Cleaners</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!massage--body-works/cksz">Massage & Body Works</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!pets-care--supplies/c1gh2">Pet's Care & Supplies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!shoe-repairs/c1l2">Shoe Repairs</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!tailors/c2cr">Tailors</a></li>
+	</ul>
+	<li><a href="#">PROFESSIONAL MANAGEMENT</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!doctors/c13um">Doctors</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!language-teachers/c23vx">Language Teachers</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!lawyers/c1o3u">Lawyers</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!professor/crt">Professor</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!translator--interpreter/cx5u">Translator & Interpreter</a></li>
+	</ul>
+	<li><a href="#">REAL ESTATE</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!agencies--brokerage/ctn2">Agencies & Brokerage</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!agents--brokers/cesw">Agents & Brokers</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!apartment--home-rental/c1bak">Apartment & Home Rental</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!mortgage-broker--lender/c1sak">Mortgage Broker & Lender</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!property-managements/c7da">Property Managements</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!title-company/c6jv">Title Company</a></li>
+	</ul>
+	<li><a href="#">SAFETY & SECURITY</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!security-cameras/c232o">Security Cameras</a></li>
+    </ul>
+	<li><a href="#">SPORTS & RECREATION</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!clubs/c1z5x">Clubs</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!journalists/cnyj">Journalists</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!radio-stations/chbh">Radio Stations</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!stores/c1z38">Stores</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!soccer-coach/cv1x">Soccer Coach</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!courses/c1jtd">Couses</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!players/c1e6g">Players</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!referees/cvyg">Referees</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!teams/cutp">Teams</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!theaters/c187q">Theaters</a></li>
+	</ul>
+	<li><a href="#">TELECOMMUNICATIONS</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!cellular/c1bwj">Cellular</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!internet-providers/c1g3o">Internet Providers</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!lan-house/c1mq7">Lan House</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!marketing/ca6t">Marketing</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!midia/c1kg7">Midia</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!telephone-companies/c1pzr">Telephone Companies</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!web-marketing/ck6k">Web Marketing</a></li>
+	</ul>
+	<li><a href="#">TRADE SHOW</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!agricultural-country--rural/c1cp3">Agricultural, Country & Rural</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!gemstones/c1ohh">Gemstones</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!trade-promotions/c15e7">Trade Promotions</a></li>
+	</ul>
+	<li><a href="#">TRAVEL & TRANSPORTATION</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!airports/c135t">Airports</a></li>
+     <li><a target="_top" href="http://www.brazillist.org/#!agent--tourism/cbu0">Agent & Tourism</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!bus-charter--bus-stations/c24wk">Bus Charter & Bus Station</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!guides/c1b4s">Guides</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!hotel--extended-stay/cb36">Hotel & Extended Stay</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!moving--storage/cmsl">Moving & Storage</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!packaging/cp2t">Packaging</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!shipping--ports/cib">Shipping & Ports</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!taxi-cab--drivers/c1oza">Taxi Cab & Drivers</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!taxi-motorcycle/c8v4">Taxi Motorcycle</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!train-station/c1xek">Train Station</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!transportation/c1u5o">Transportation</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!travel-agency/cez9">Travel Agency</a></li>
+	 <li><a target="_top" href="http://www.brazillist.org/#!vans/c1l4k">Vans</a></li>
+	</ul>
+	<li><a href="#">ULTILITIES</a><span>>></span>
+    <ul class="sub-level">
+     <li><a target="_top" href="http://www.brazillist.org/#!public/c1cxt">Public</a></li>
+    </ul>
+   </li> 
+  </ul>
+ </div>
+</body>
+</html>
